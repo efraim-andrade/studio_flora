@@ -24,10 +24,22 @@ var carousels = {
             smartSpeed: 1000,        
         });
     },
+    
+    vitrineCarousel: function(){
+        $(".vitrine-carousel").owlCarousel({
+            margin: 14,
+            dots: false,
+            nav: true,
+            navText: ["<", ">"],
+            items: 4,
+            smartSpeed: 1000,        
+        });
+    },
 
     ready: function(){
         carousels.carousel();
         carousels.projectsCarousel();
+        carousels.vitrineCarousel();
     }
 }
 
