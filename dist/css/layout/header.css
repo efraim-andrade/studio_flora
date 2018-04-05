@@ -83,7 +83,7 @@
 	height: 100%;
 }
 
-.header .banner .owl-carousel {
+.header .banner .banner-carousel {
 	position: absolute;
 	top: 0;
 	left: 0;
@@ -91,7 +91,7 @@
 	width: 100%;
 }
 
-.header .banner .owl-carousel .owl-dots {
+.header .banner .banner-carousel .owl-dots {
     position: absolute;
 	top: 436px;
     left: 50%;
@@ -103,18 +103,18 @@
 	background-color: rgba(48, 51, 32, .5);
 }
 
-.header .banner .owl-carousel .owl-dots .owl-dot span {
+.header .banner .banner-carousel .owl-dots .owl-dot span {
 	width: 7px;
 	height: 7px;
 
 	background-color: #869791;
 }
 
-.header .banner .owl-carousel .owl-dots .active span {
+.header .banner .banner-carousel .owl-dots .active span {
 	background-color: #FFF;
 }
 
-.header .banner .owl-carousel .item .img {
+.header .banner .banner-carousel .item .img {
 	/* background-image: url('../../img/banner.jpg'); 
 	background-repeat: no-repeat;
 	background-position: center;

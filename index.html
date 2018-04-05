@@ -13,6 +13,7 @@
     <link rel="stylesheet" href="dist/css/helpers/helpers.css">
     <link rel="stylesheet" href="dist/css/layout/header.css">
     <link rel="stylesheet" href="dist/css/layout/services.css">
+    <link rel="stylesheet" href="dist/css/layout/projects.css">
     <link rel="stylesheet" href="dist/css/pages/index.css">
 
 </head>
@@ -54,7 +55,7 @@
             </nav>
             
             <div class="banner">
-                <div class="owl-carousel owl-theme">
+                <div class="banner-carousel owl-carousel owl-theme">
                     <div class="item">
                         <img class="img" src="dist/img/banner.jpg" alt="">
                     </div>
@@ -129,22 +130,52 @@
         </article>
     </section>
 
-    <section class="projects">
+    <section class="projects container">
         <h1 class="title">nossos projetos</h1>
 
-        <article class="project">
-            <img src="" alt="" class="picture">
-
-            <h2 class="title">Jardim Japonês</h2>
-
-            <p class="text">Requinte e cultura japonesa na decoração externa</p>
-        </article>
+        <div class="owl-carousel owl-theme projects-carousel">
+            <div class="item">
+                <article class="project">
+                    <img class="picture" src="dist/img/projects-3.jpg" alt="">
+                   
+                    <div class="content">
+                        <h2 class="title">Jardim Japonês</h2>
+                        
+                        <p class="text">Requinte e cultura japonesa na decoração externa</p>
+                    </div>
+                </article>
+            </div>
+            
+            <div class="item">
+                <article class="project">
+                    <img class="picture" src="dist/img/projects-1.jpg" alt="">
+                    
+                    <div class="content">
+                        <h2 class="title">Mármore e natureza</h2>
+                        
+                        <p class="text">Uma junção que promete realçar ambientes internos</p>
+                    </div>
+                </article>
+            </div>
+            
+            <div class="item">
+                <article class="project">
+                    <img class="picture" src="dist/img/projects-2.jpg" alt="">
+                    
+                    <div class="content">
+                        <h2 class="title">Paisagismo Cultural</h2>
+                        
+                        <p class="text">Tendências do urbanismo moderno ligadas ao passado</p>
+                    </div>
+                </article>
+            </div>
+        </div>         
     </section>
 </body>
 
 <script src="dist/js/libs/jquery/jquery-3.3.1.min.js"></script>
 <script src="dist/js/libs/owlCarousel/dist/owl.carousel.js"></script>
 <script src="dist/js/libs/owlCarousel/"></script>
-<script src="dist/js/index/banner.js"></script>
+<script src="dist/js/index/carousels.js"></script>
 
 </html>
