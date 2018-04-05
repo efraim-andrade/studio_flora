@@ -16,16 +16,13 @@ var carousels = {
     
     projectsCarousel: function(){
         $(".projects-carousel").owlCarousel({
-            loop: true,
-            margin: 30,
+            margin: 16,
             dots: false,
             nav: true,
             navText: ["<", ">"],
             items: 3,
             smartSpeed: 1000,        
         });
-
-        $(".owl-nav").removeClass('disabled');
     },
 
     ready: function(){

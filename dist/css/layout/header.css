@@ -61,15 +61,15 @@
 	display: flex;
 	align-items: center;
 	justify-content: center;
-
+	
 	width: 12%;
 	height: 70px;
 	margin-right: 1px;
-
+	
 	font-family: 'Microsoft PhagsPa';
 	font-size: 14px;
 	letter-spacing: -.02em;
-
+	
 	color: #FFF;
 	background-color: rgba(177, 184, 139, .5);
 	text-transform: capitalize;
@@ -114,10 +114,18 @@
 	background-color: #FFF;
 }
 
-.header .banner .banner-carousel .item .img {
-	/* background-image: url('../../img/banner.jpg'); 
-	background-repeat: no-repeat;
-	background-position: center;
-	background-size: cover; */
+.header .banner .banner-carousel::after {
+	content: "";
+
+	display: block;
+	position: relative;
+
+	margin-top: -10px;
+	margin: -10px auto 0;
+	width: 1600px;
+	height: 10px;
+
+	background-color: rgba(255, 255, 255, .5);
+	z-index: 2;
 }
 

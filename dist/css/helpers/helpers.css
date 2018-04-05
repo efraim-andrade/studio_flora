@@ -4,6 +4,12 @@
 	margin: 0 auto;
 }
 
+.mini-container {
+	width: 1000px;
+
+	margin: 0 auto;
+}
+
 .link {
 	color: #FFF;
 }
