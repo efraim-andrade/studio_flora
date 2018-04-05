@@ -1,15 +1,18 @@
 <!DOCTYPE html>
-
-<html lang="en">
+<html>
 
 <head>
     <meta charset="UTF-8">
 
     <title>Studio Flora</title>
 
+    <link rel="stylesheet" href="dist/js/libs/owlCarousel/dist/assets/owl.carousel.min.css">
+    <link rel="stylesheet" href="dist/js/libs/owlCarousel/dist/assets/owl.theme.default.min.css">
+
     <link rel="stylesheet" href="dist/css/helpers/reset.css">
     <link rel="stylesheet" href="dist/css/helpers/helpers.css">
     <link rel="stylesheet" href="dist/css/layout/header.css">
+    <link rel="stylesheet" href="dist/css/layout/services.css">
     <link rel="stylesheet" href="dist/css/pages/index.css">
 
 </head>
@@ -17,7 +20,7 @@
 <body>
 	<header class="header">
         <div class="container">
-            <div class="top">
+            <div class="top-content">
                 <a class="link" href="javascript:;">
                     <img class="logo" src="dist/img/logo.png" alt="">
                 </a>
@@ -28,13 +31,120 @@
                 </ul>
             </div>
             
-            <nav class="menu">         
+            <nav class="top-menu">
+                <ul class="list">
+                    <a class="link item" href="javascript:;"><li>home</li></a>
+
+                    <a class="link item" href="javascript:;"><li>garden</li></a>
+
+                    <a class="link item" href="javascript:;"><li>arquitetura</li></a>
+
+                    <a class="link item" href="javascript:;"><li>paisagismo</li></a>
+
+                    <a class="link item" href="javascript:;"><li>irrigação</li></a>
+
+                    <a class="link item" href="javascript:;"><li>produtos</li></a>
+
+                    <a class="link item" href="javascript:;"><li>dicas</li></a>
+
+                    <a class="link item" href="javascript:;"><li>conheça-nos</li></a>
+
+                    <a class="link item" href="javascript:;"><li>contato</li></a>
+                </ul>        
             </nav>
             
             <div class="banner">
+                <div class="owl-carousel owl-theme">
+                    <div class="item">
+                        <img class="img" src="dist/img/banner.jpg" alt="">
+                    </div>
+                    
+                    <div class="item">
+                        <img class="img" src="dist/img/banner.jpg" alt="">
+                    </div>
+
+                    <div class="item">
+                        <img class="img" src="dist/img/banner.jpg" alt="">                        
+                    </div>
+                </div>
             </div>
         </div>
-	</header>
+    </header>
+
+    <section class="services">
+        <article class="service">
+            <div class="icon">
+                <ul>
+                    <li id="garden"></li>
+                </ul>
+            </div>
+
+            <h1 class="title">Garden</h1>
+
+            <p class="description">
+                    Lorem ipsum dolor sit amet consectetur adipisicing elit. Ut, doloremque. Facilis, consequuntur.
+            </p>
+        </article>
+
+        <article class="service">
+            <div class="icon">
+                <ul>
+                    <li id="architecture"></li>
+                </ul>
+            </div>
+
+            <h1 class="title">Arquitetura</h1>
+
+            <p class="description">
+                Lorem ipsum dolor sit amet consectetur adipisicing elit. Ut, doloremque. Facilis, consequuntur.                
+            </p>
+        </article>
+
+        <article class="service">
+            <div class="icon">
+                <ul>
+                    <li id="landscaping"></li>
+                </ul>
+            </div>
+
+            <h1 class="title">Paisagismo</h1>
+
+            <p class="description">
+                Lorem ipsum dolor sit amet consectetur adipisicing elit. Ut, doloremque. Facilis, consequuntur.
+            </p>
+        </article>
+
+        <article class="service">
+            <div class="icon">
+                <ul>
+                    <li id="irrigation"></li>
+                </ul>
+            </div>
+
+            <h1 class="title">Irrigação</h1>
+
+            <p class="description">
+                Lorem ipsum dolor sit amet consectetur adipisicing elit. Ut, doloremque. Facilis, consequuntur.
+            </p>
+        </article>
+    </section>
+
+    <section class="projects">
+        <h1 class="title">nossos projetos</h1>
+
+        <article class="project">
+            <img src="" alt="" class="picture">
+
+            <h2 class="title">Jardim Japonês</h2>
+
+            <p class="text">Requinte e cultura japonesa na decoração externa</p>
+        </article>
+    </section>
 </body>
+
+<script src="dist/js/libs/jquery/jquery-3.3.1.min.js"></script>
+<script src="dist/js/libs/owlCarousel/dist/owl.carousel.js"></script>
+<script src="dist/js/libs/owlCarousel/"></script>
+<script src="dist/js/index/banner.js"></script>
 
 </html>

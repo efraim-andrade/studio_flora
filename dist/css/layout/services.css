@@ -1,0 +1,106 @@
+.services {
+    display: flex;
+    align-items: center;
+
+    position: relative;
+
+    margin: -131px auto 0;
+    width: 1000px;
+
+    z-index: 1;
+}
+
+.services .service {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+
+    margin-right: 4px;
+    width: 25%;
+
+    background: rgba(255, 255, 255, .8);
+}
+
+.services .service:last-child {margin-right: 0;}
+
+.services .service .title {
+    margin-bottom: 7px;
+
+    font-family: 'Freestyle Script';
+    font-size: 50px;
+
+    color: #46511A;
+}
+
+.services .service .description {
+    margin: 0 21px 21px;
+
+    font-family: 'Myriad Pro';
+    font-size: 13px;
+    text-align: center;
+    line-height: 120%;
+
+    color: #445F17;
+}
+
+.services .service .icon {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+
+    margin-top: 21px;
+    margin-bottom: 35px;
+    padding: 14px;
+    width: 33px;
+    height: 33px;
+    border: 1px solid #669900;
+    border-radius: 100%;
+
+    background: #669900;
+}
+
+/* Estilizando os icons */
+
+#garden,
+#architecture,
+#landscaping,
+#irrigation { 
+    background-image: url('../../img/sprites.png');
+    background-color: #669900; 
+}
+
+#garden,
+#architecture,
+#landscaping,
+#irrigation::before { 
+    content: "";
+
+    width: 50px;
+    height: 50px;
+
+    background-color: #669900;
+}
+
+#garden {
+    width: 30px;
+    height: 25px;
+    background-position: -57px 0;
+}
+
+#architecture {
+    width: 28px;
+    height: 25px;
+    background-position: -87px 0;
+}
+
+#landscaping {
+    width: 27px;
+    height: 27px;
+    background-position: -115px 0;
+}
+
+#irrigation{
+    width: 29px;
+    height: 30px;
+    background-position: -142px 0;
+}

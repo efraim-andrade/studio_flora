@@ -3,55 +3,121 @@
 
 	width: 100%;
 	height: 600px;
+	padding-top: 10px;
 }
 
-.header .top {
+.header .top-content {
 	display: flex;
 	justify-content: space-between;
 
-	width: 100%;
+	position: relative;
+
+	width: 1100px;
+	height: 83px;
+	margin-bottom: 7px;
+	margin-right: 7px;
+
+	z-index: 2;
 }
 
-.header .top .list {
+.header .top-content .list {
 	display: flex;
-	align-items: center;
-
-	margin-right: 117px;
+	align-items: flex-end;
 }
 
-.header .top >.link {
+.header .top-content >.link {
 	margin-left: 50px;
 }
 
-.header .top .list .facebook,
-.header .top .list .twitter {
+.header .top-content .list .facebook,
+.header .top-content .list .twitter {
 	width: 26px;
 	height: 26px;
 
 	background-image: url('../../img/sprites.png');
 }
 
-.header .top .list .facebook { 
+.header .top-content .list .facebook { 
 	margin-right: 4px;
 
 	background-position: 0 0; 
 }
 
-.header .top .list .twitter { background-position: 74px 0; }
+.header .top-content .list .twitter { background-position: -30px 0; }
 
-.header .menu {
+.header .top-menu {	
+	position: relative;
+
 	width: 100%;
-	height: 30px;
+
+	z-index: 2;
 }
 
+.header .top-menu .list {
+	display: flex;
+}
+
+.header .top-menu .item {
+	display: flex;
+	align-items: center;
+	justify-content: center;
+
+	width: 12%;
+	height: 70px;
+	margin-right: 1px;
+
+	font-family: 'Microsoft PhagsPa';
+	font-size: 14px;
+	letter-spacing: -.02em;
+
+	color: #FFF;
+	background-color: rgba(177, 184, 139, .5);
+	text-transform: capitalize;
+}
+
+.header .top-menu .item:hover { background-color: rgba(48, 51, 32, .5); }
+
+.header .top-menu .item:last-child { margin-right: 0 }
+
 .header .banner {
+	height: 100%;
+}
+
+.header .banner .owl-carousel {
 	position: absolute;
 	top: 0;
 	left: 0;
-
+	
 	width: 100%;
-	height: 100%;
-
-	background-image: url('../../img/banner.jpg');
-	z-index: -1;
 }
+
+.header .banner .owl-carousel .owl-dots {
+    position: absolute;
+	top: 436px;
+    left: 50%;
+	transform: translateX(-50%);
+	
+	width: 1000px;
+	padding: 6px 0;
+	
+	background-color: rgba(48, 51, 32, .5);
+}
+
+.header .banner .owl-carousel .owl-dots .owl-dot span {
+	width: 7px;
+	height: 7px;
+
+	background-color: #869791;
+}
+
+.header .banner .owl-carousel .owl-dots .active span {
+	background-color: #FFF;
+}
+
+.header .banner .owl-carousel .item .img {
+	/* background-image: url('../../img/banner.jpg'); 
+	background-repeat: no-repeat;
+	background-position: center;
+	background-size: cover; */
+}
+
