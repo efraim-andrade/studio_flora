@@ -75,9 +75,29 @@
 .footer > .container .social{
     display: flex;
     align-items: flex-end;
-
+    
     margin-bottom: 34px;
     margin-left: 13px;
+}
+
+.footer > .container .social .list {
+    display: flex;
+}
+
+.footer > .container .social .list .facebook {
+    width: 26px;
+    height: 26px;
+    margin-right: 4px;
+    
+	background: url('../../img/sprites.png') -171px 0;   
+}
+
+.footer > .container .social .list .twitter {
+    width: 26px;
+    height: 26px;
+    margin-right: 4px;
+    
+	background: url('../../img/sprites.png') -201px 0;   
 }
 
 
