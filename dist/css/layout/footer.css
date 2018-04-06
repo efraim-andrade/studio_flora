@@ -4,17 +4,16 @@
     background-color: #D2E6B6; 
 }
 
-.footer > .container {
+.footer > .mini-container {
     display: flex;
 }
 
-.footer > .container .picture {
-    margin-top: -127px;
-    margin-right: 47px;
+.footer > .mini-container .picture {
+    margin: -127px 47px 0 -50px;
 }
 
 
-.footer > .container .nav-title {
+.footer > .mini-container .nav-title {
     margin: 14px 43px 7px 0;
     
     font-family: 'Microsoft PhagsPa';
@@ -25,7 +24,7 @@
     color: #72A03F;
 }
 
-.footer > .container .item .link {
+.footer > .mini-container .item .link {
     font-family: 'Microsoft PhagsPa';
     font-size: 13px;
     line-height: 120%;
@@ -34,11 +33,11 @@
     color: #465119 !important;
 }
 
-.footer > .container .products { margin-right: 80px; }
+.footer > .mini-container .products { margin-right: 80px; }
 
-.footer > .container .contact { margin-top: -43px; }
+.footer > .mini-container .contact { margin-top: -43px; }
 
-.footer > .container .contact .text { 
+.footer > .mini-container .contact .text { 
     font-family: 'Microsoft PhagsPa';
     font-size: 13px;
     line-height: 120%;
@@ -46,16 +45,16 @@
     color: #1A1F0A;
 }
 
-.footer > .container .contact .phone {
+.footer > .mini-container .contact .phone {
     margin-top: 11px;
 }
 
-.footer > .container .contact .phone,
-.footer > .container .contact .email{
+.footer > .mini-container .contact .phone,
+.footer > .mini-container .contact .email{
     display: flex;
 }
 
-.footer > .container .contact .phone .list .icon{
+.footer > .mini-container .contact .phone .list .icon{
 	width: 20px;
     height: 20px;
     margin-right: 9px;
@@ -64,7 +63,7 @@
 	background: url('../../img/sprites.png') -227px 0;
 } 
 
-.footer > .container .contact .email .list .icon{
+.footer > .mini-container .contact .email .list .icon{
     width: 20px;
     height: 15px;
     margin-right: 9px;
@@ -72,7 +71,7 @@
 	background: url('../../img/sprites.png') -247px 0;
 } 
 
-.footer > .container .social{
+.footer > .mini-container .social{
     display: flex;
     align-items: flex-end;
     
@@ -80,11 +79,11 @@
     margin-left: 13px;
 }
 
-.footer > .container .social .list {
+.footer > .mini-container .social .list {
     display: flex;
 }
 
-.footer > .container .social .list .facebook {
+.footer > .mini-container .social .list .facebook {
     width: 26px;
     height: 26px;
     margin-right: 4px;
@@ -92,7 +91,7 @@
 	background: url('../../img/sprites.png') -171px 0;   
 }
 
-.footer > .container .social .list .twitter {
+.footer > .mini-container .social .list .twitter {
     width: 26px;
     height: 26px;
     margin-right: 4px;
