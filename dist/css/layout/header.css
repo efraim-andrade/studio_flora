@@ -40,16 +40,28 @@
 
 .header .top-content .list .facebook,
 .header .top-content .list .twitter {
+	display: flex;
+
 	width: 26px;
 	height: 26px;
 
 	background-image: url('../../img/sprites.png');
 }
 
+.header .top-content .list .facebook:hover,
+.header .top-content .list .twitter:hover {
+	opacity: .8;
+}
+
 .header .top-content .list .facebook { 
 	margin-right: 4px;
 
 	background-position: 0 0; 
+}
+
+.header .top-content .list .facebook .link,
+.header .top-content .list .twitter .link { 
+	flex-basis: 100%;
 }
 
 .header .top-content .list .twitter { background-position: -30px 0; }
@@ -91,7 +103,6 @@
 }
 
 .header .top-menu .item .link {
-	
     display: flex;
 	flex-basis: 100%;
     align-items: center;
@@ -136,7 +147,7 @@
 .header .top-menu .item .sub-list::before {
 	content: "";
     position: absolute;
-	top: -14px;
+	top: 0;
 	
     width: 21px;
 	height: 10px;
@@ -158,11 +169,13 @@
 }
 
 .header .top-menu .item:hover .sub-list {
+	top: 100%;
+
+	padding-top: 1rem;
+
 	opacity: 1;
 	visibility: visible;
 	transition: 0.3s;
-
-	top: 120%;
 }
 
 

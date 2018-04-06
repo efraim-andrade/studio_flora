@@ -82,21 +82,28 @@
     display: flex;
 }
 
-.footer > .mini-container .social .list .facebook {
+.footer > .mini-container .social .list .facebook,
+.footer > .mini-container .social .list .twitter {
+    display: flex;
+    
     width: 26px;
     height: 26px;
     margin-right: 4px;
-    
-	background: url('../../img/sprites.png') -171px 0;   
 }
 
-.footer > .mini-container .social .list .twitter {
-    width: 26px;
-    height: 26px;
-    margin-right: 4px;
-    
-	background: url('../../img/sprites.png') -201px 0;   
+.footer > .mini-container .social .list .facebook:hover,
+.footer > .mini-container .social .list .twitter:hover {
+	opacity: .8;
 }
+
+.footer > .mini-container .social .list .facebook .link,
+.footer > .mini-container .social .list .twitter .link {
+    flex-basis: 100%;
+}
+
+.footer > .mini-container .social .list .facebook { background: url('../../img/sprites.png') -171px 0; }
+
+.footer > .mini-container .social .list .twitter { background: url('../../img/sprites.png') -201px 0; }
 
 
 
