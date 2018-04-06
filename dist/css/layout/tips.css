@@ -22,6 +22,7 @@
     font-family: "Myriad Pro";
     font-size: 38px;
     line-height: 120%;
+    letter-spacing: -3px;
 
     color: rgba(70, 81, 26, .9);
 }
@@ -34,7 +35,7 @@
     left: -18px;
 
     width: 580px;
-    height: 1px;
+    height: 3px;
     margin-bottom: 12px;
 
     background-color: rgba(88, 97, 48, .3);
@@ -77,6 +78,7 @@
     font-family: 'Verdana';
     font-size: 12px;
     line-height: 150%;
+    letter-spacing: -.38px;
 
     color: #1A1F0A;
 }

@@ -12,6 +12,7 @@
     font-family: "Myriad Pro";
     font-size: 38px;
     line-height: 120%;
+    letter-spacing: -3px;
 
     color: #46511A;
 }
@@ -24,10 +25,10 @@
     left: -18px;
 
     width: 1000px;
-    height: 3px;
+    height: 1px;
     margin-bottom: 12px;
 
-    background-color: #586130;
+    background-color: rgba(88, 97, 48, .3);
 }
 
 .projects .owl-carousel .owl-nav .owl-prev,
