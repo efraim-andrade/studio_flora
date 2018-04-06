@@ -1,0 +1,84 @@
+.footer { 
+    height: 170px;
+
+    background-color: #D2E6B6; 
+}
+
+.footer > .container {
+    display: flex;
+}
+
+.footer > .container .picture {
+    margin-top: -127px;
+    margin-right: 47px;
+}
+
+
+.footer > .container .nav-title {
+    margin: 14px 43px 7px 0;
+    
+    font-family: 'Microsoft PhagsPa';
+    font-size: 20px;
+    line-height: 120%;
+    letter-spacing: -.02rem;
+    
+    color: #72A03F;
+}
+
+.footer > .container .item .link {
+    font-family: 'Microsoft PhagsPa';
+    font-size: 13px;
+    line-height: 120%;
+    letter-spacing: -.02rem;
+    
+    color: #465119 !important;
+}
+
+.footer > .container .products { margin-right: 80px; }
+
+.footer > .container .contact { margin-top: -43px; }
+
+.footer > .container .contact .text { 
+    font-family: 'Microsoft PhagsPa';
+    font-size: 13px;
+    line-height: 120%;
+    
+    color: #1A1F0A;
+}
+
+.footer > .container .contact .phone {
+    margin-top: 11px;
+}
+
+.footer > .container .contact .phone,
+.footer > .container .contact .email{
+    display: flex;
+}
+
+.footer > .container .contact .phone .list .icon{
+	width: 20px;
+    height: 20px;
+    margin-right: 9px;
+    margin-bottom: 6px;
+
+	background: url('../../img/sprites.png') -227px 0;
+} 
+
+.footer > .container .contact .email .list .icon{
+    width: 20px;
+    height: 15px;
+    margin-right: 9px;
+    
+	background: url('../../img/sprites.png') -247px 0;
+} 
+
+.footer > .container .social{
+    display: flex;
+    align-items: flex-end;
+
+    margin-bottom: 34px;
+    margin-left: 13px;
+}
+
+
+
