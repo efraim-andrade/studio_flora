@@ -90,8 +90,12 @@
     background-color: rgba(70, 81, 26, .2);
 }
 
-.projects .projects-carousel .item .picture {
+
+.projects .projects-carousel .item a {
     align-self: center;
+}
+
+.projects .projects-carousel .item .picture {
 
     width: 200px;
     height: 130px;
